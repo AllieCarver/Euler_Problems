@@ -23,7 +23,6 @@ def problem04():
 				if x[0]==x[-1] and x[1]==x[-2] and x[2]==x[-3]:
 					palindromes.add(int(x))
 	return max(palindromes)
-
 if __name__=='__main__':
     time1=time.time()
     print problem04()

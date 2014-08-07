@@ -1,5 +1,16 @@
 #!/usr/bin/env python2
+#!-*-coding=utf8 -*-
+
+import time
 import math
+
+"""
+========================
+Project Euler Problem 01
+========================
+"""
+	
+
 def factors(n):
     factors=[]
     if n%2==0:
@@ -11,7 +22,7 @@ def factors(n):
     for i in list(factors)[::-1]:
         factors.append(n/i)
     return len(factors)
-def trianglenum():
+def problem12():
     i=1
     n=i
     while True:
@@ -20,4 +31,9 @@ def trianglenum():
         else:
             i+=1
             n+=i
-print trianglenum()
+
+if __name__=='__main__':
+    time1=time.time()
+    print problem12()
+    time2=time.time()
+    print time2-time1

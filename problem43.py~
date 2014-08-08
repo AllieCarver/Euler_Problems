@@ -1,11 +1,7 @@
 #! -*- utf-8 -*-
 from itertools import permutations as perm
 import time
-
 """
-========================
-Project Euler Problem 43
-========================
 The number, 1406357289, is a 0 to 9 pandigital number because it is made up of each of the digits 0 to 9 in some order, 
 
 but it also has a rather interesting sub-string divisibility property.
@@ -31,8 +27,7 @@ def problem43():
            
     return sum(nums)  
 
-if __name__=='__main__':
-    time1=time.time()
-    print problem43()
-    time2=time.time()
-    print time2-time1	
+time1=time.time() 
+print problem43()
+time2=time.time()
+print time2-time1 

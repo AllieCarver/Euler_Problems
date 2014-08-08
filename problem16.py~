@@ -4,7 +4,7 @@ import time
 
 """
 ========================
-Project Euler Problem 16
+Project Euler Problem 01
 ========================
 1**5 = 32768 and the sum of its digits is 3 + 2 + 7 + 6 + 8 = 26.
 

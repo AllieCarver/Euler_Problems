@@ -32,6 +32,6 @@ def problem29_alt():
 
 if __name__=='__main__':
     time1=time.time()
-    print problem29_alt()
+    print problem28_alt()
     time2=time.time()
     print time2-time1	

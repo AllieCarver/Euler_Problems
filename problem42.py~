@@ -59,8 +59,7 @@ def problem42():
             count+=1    
     return count
 
-if __name__=='__main__':
-    time1=time.time()
-    print problem42()
-    time2=time.time()
-    print time2-time1	
+time1=time.time()           
+print problem42()
+time2=time.time()
+print time2-time1

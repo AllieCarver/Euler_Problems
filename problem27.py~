@@ -31,8 +31,12 @@ number of primes for consecutive values of n, starting with n = 0.
 """
 	
 def check_prime(n):
-	for i in xrange(2, int(math.sqrt(n)+1)):
-		if float(n)/i%1==0:
+    if n==2:
+        return True
+    if n%2==0:
+        return False
+	for i in xrange(3, int(math.sqrt(n)+1),2):
+		if float(n)%i==0:
 			return False
 	else:
 		return True

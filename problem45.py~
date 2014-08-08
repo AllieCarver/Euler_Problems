@@ -29,11 +29,10 @@ def problem45():
         h+=1
     return intersect
 
-if __name__=='__main__':
-    time1=time.time()
-    print problem45()
-    time2=time.time()
-    print time2-time1	
+time1=time.time()    
+print problem45()
+time2=time.time()
+print time2-time1
 
 def problem45b():
     p=167

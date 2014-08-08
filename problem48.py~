@@ -19,8 +19,8 @@ def problem48():
         x+=i**i
     return str(x)[-10:]
 
-if __name__=='__main__':
-    time1=time.time()
-    print problem48()
-    time2=time.time()
-    print time2-time1	
+time1=time.time()
+print problem48()
+time2=time.time()
+print time2-time1    
+        

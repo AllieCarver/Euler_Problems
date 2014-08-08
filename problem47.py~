@@ -76,12 +76,10 @@ def problem_47():
                 n+=3 
         else:
             n+=4
-
-if __name__=='__main__':
-    time1=time.time()
-    primeset=ero_sieve(150000)
-    primeset.add(1)
-    print problem_47()
-    time2=time.time()
-    print time2-time1
+time1=time.time()
+primeset=ero_sieve(150000)
+primeset.add(1)
+print problem_47()
+time2=time.time()
+print time2-time1
 

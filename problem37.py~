@@ -76,6 +76,6 @@ def problem37():
 
 if __name__=='__main__':
     time1=time.time()
-    print problem37()
+    print problem01()
     time2=time.time()
     print time2-time1	

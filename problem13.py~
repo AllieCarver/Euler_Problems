@@ -118,7 +118,8 @@ def format_data(n):
     for i in list(data):
         data[data.index(i)]=long(i)
     return data
-def problem13():
+d
+ef problem13():
     nums = format_data(problem_data)
     return sum(nums)
 
